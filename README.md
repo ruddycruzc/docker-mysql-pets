@@ -84,6 +84,32 @@ Hands-on Docker and MySQL project developed during the **Full Stack Java Bootcam
 | 6 | Publish image |
 
 ---
+## Implementation
+
+### DMP-2 | Download MySQL Docker Image
+
+The official MySQL 8.0 Debian image was downloaded from Docker Hub using the following command:
+
+```bash
+docker pull mysql:8.0-debian
+```
+
+---
+
+### DMP-3 | Create MySQL Container
+
+A new MySQL container was created with port **3306** exposed and a root password configured.
+
+```bash
+docker run --name pets-mysql \
+-p 3306:3306 \
+-e MYSQL_ROOT_PASSWORD=******** \
+-d mysql:8.0-debian
+```
+
+The container was successfully started in detached mode and verified through Docker Desktop and the `docker ps` command.
+
+---
 
 # Evidence
 
