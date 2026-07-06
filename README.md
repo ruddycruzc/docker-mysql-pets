@@ -80,7 +80,24 @@ El repositorio sigue buenas prácticas de desarrollo organizando los scripts SQL
 
 # Project Structure
 
-...
+```
+docker-mysql-pets
+├─ README.md
+├─ screenshots
+│  ├─ create-table-dbeaver.png
+│  ├─ dbeaver-database.png
+│  ├─ docker-containers.png
+│  ├─ docker-images.png
+│  ├─ dockerhub-repository.png
+│  ├─ git.png
+│  └─ sql-query-result.png
+└─ sql
+   ├─ 01_create_database.sql
+   ├─ 02_create_table.sql
+   ├─ 03_insert_data.sql
+   └─ 04_queries.sql
+
+```
 
 ---
 
